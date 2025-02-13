@@ -12,12 +12,6 @@ const pool = new Pool({
     database: process.env.DB_DATABASE,
     password: process.env.DB_PASSWORD,
     port: process.env.DB_PORT,
-
-    // user: 'postgres',
-    // host: 'localhost',
-    // database: 'QuanLyBanHang',
-    // password: 'chopin',
-    // port: 5432
 });
 
 // Connect to the Database
